@@ -11,12 +11,11 @@ import MainLayout from './layouts/mainlayout';
 
 // build Router component with a Header and Routes
 const Router = () => {
-  return(
+  return (
     <BrowserRouter>
       <Header/>
       <MainLayout>
         <Routes>
-            <Route path='/' element={<SignIn/>}/>
             <Route path='allinvoices' element={<AllInvoices/>}/>
             <Route path='addinvoice' element={<AddInvoice/>}/>
             <Route path='updateinvoice' element={<UpdateInvoice/>}/>
