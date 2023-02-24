@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client';
 import Router from './router';
 
 // import bootstrap as well as css documents to build frontend
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import './styles/app.css';
 
 // import component and library to support store
