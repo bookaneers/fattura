@@ -8,8 +8,8 @@ const Header = () => {
         <div className="container">
 
             {/* page title */}
-            <Navbar>
-                <Navbar.Brand>Fattura</Navbar.Brand>
+            <Navbar className="justify-content-center">
+                <Navbar.Brand className="fs-1 fw-bold">Fattura</Navbar.Brand>
             </Navbar>
 
             {/* page navigation bar */}
